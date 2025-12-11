@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koleksi - Hope Plants</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-leaf"></i>
+                </div>
+                <div class="logo-text">Hope Plants</div>
+            </a>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Beranda</a></li>
+                <li><a href="collections.html">Koleksi</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="about.html">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Collections Hero -->
+    <section class="collections-hero">
+        <div class="container">
+            <h1>Koleksi Desain</h1>
+            <p>Portofolio lengkap proyek desain tanaman hias kami untuk berbagai jenis ruang</p>
+        </div>
+    </section>
+
+    <!-- Collections Filter -->
+    <section class="projects">
+        <div class="container">
+            <div class="collections-filter">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="living-room">Ruang Tamu</button>
+                <button class="filter-btn" data-filter="bedroom">Kamar Tidur</button>
+                <button class="filter-btn" data-filter="office">Kantor</button>
+                <button class="filter-btn" data-filter="balcony">Balkon</button>
+                <button class="filter-btn" data-filter="bathroom">Kamar Mandi</button>
+                <button class="filter-btn" data-filter="kitchen">Dapur</button>
+            </div>
+            
+            <div class="collections-grid">
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Ruang Tamu Modern">
+                    <div class="collection-info">
+                        <h3>Ruang Tamu Minimalis</h3>
+                        <p>Desain tanaman untuk ruang tamu dengan pencahayaan terbatas, menggunakan Monstera, Sansevieria, dan ZZ Plant.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Ruang Tamu</span>
+                            <span class="tag">Minimalis</span>
+                            <span class="tag">Cahaya Rendah</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Kantor Startup">
+                    <div class="collection-info">
+                        <h3>Kantor Startup</h3>
+                        <p>Solusi hijau untuk meningkatkan produktivitas di ruang kerja dengan tanaman pembersih udara seperti Peace Lily dan Spider Plant.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Kantor</span>
+                            <span class="tag">Udara Bersih</span>
+                            <span class="tag">Produktivitas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Balkon Apartemen">
+                    <div class="collection-info">
+                        <h3>Balkon Apartemen Kecil</h3>
+                        <p>Transformasi balkon 2x3 meter menjadi oasis hijau pribadi dengan sistem vertikal dan tanaman tahan sinar matahari.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Balkon</span>
+                            <span class="tag">Apartemen</span>
+                            <span class="tag">Vertikal Garden</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Kamar Tidur">
+                    <div class="collection-info">
+                        <h3>Kamar Tidur Tenang</h3>
+                        <p>Desain tanaman untuk kamar tidur dengan fokus pada tanaman yang melepaskan oksigen di malam hari seperti Snake Plant.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Kamar Tidur</span>
+                            <span class="tag">Relaksasi</span>
+                            <span class="tag">Kualitas Udara</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Dapur">
+                    <div class="collection-info">
+                        <h3>Dapur dengan Tanaman Herbal</h3>
+                        <p>Integrasi tanaman herbal dan dekoratif di dapur untuk fungsi dan keindahan, termasuk basil, mint, dan rosemary.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Dapur</span>
+                            <span class="tag">Tanaman Herbal</span>
+                            <span class="tag">Fungsional</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Kamar Mandi">
+                    <div class="collection-info">
+                        <h3>Kamar Mandi Tropis</h3>
+                        <p>Desain tanaman untuk kamar mandi lembap dengan tanaman yang menyukai kelembapan tinggi seperti Fern dan Orchid.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Kamar Mandi</span>
+                            <span class="tag">Kelembapan Tinggi</span>
+                            <span class="tag">Tropis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Ruang Kerja Home Office">
+                    <div class="collection-info">
+                        <h3>Home Office Produktif</h3>
+                        <p>Desain tanaman untuk ruang kerja di rumah yang meningkatkan fokus dan mengurangi stres dengan tanaman seperti Pothos dan Rubber Plant.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Home Office</span>
+                            <span class="tag">Produktivitas</span>
+                            <span class="tag">Fokus</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="collection-card">
+                    <img src="contoh1.jpg" alt="Restoran">
+                    <div class="collection-info">
+                        <h3>Restoran dengan Konsep Hijau</h3>
+                        <p>Desain tanaman untuk ruang komersial dengan fokus pada tanaman besar dan perawatan mudah seperti Fiddle Leaf Fig dan Palm.</p>
+                        <div class="collection-tags">
+                            <span class="tag">Komersial</span>
+                            <span class="tag">Restoran</span>
+                            <span class="tag">Tanaman Besar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="text-center">
+                <a href="index.html#contact" class="btn">Ingin Desain Serupa?</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="logo-text">Hope Plants</div>
+                    </a>
+                    <p class="footer-tagline">Hadirkan Kehidupan Baru di Setiap Sudut Ruang.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Tautan Cepat</h3>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="collections.html">Koleksi</a></li>
+                        <li><a href="index.html#projects">Proyek</a></li>
+                        <li><a href="index.html#services">Layanan</a></li>
+                        <li><a href="about.html">Tentang</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Kategori</h3>
+                    <ul>
+                        <li><a href="#" data-filter="living-room">Ruang Tamu</a></li>
+                        <li><a href="#" data-filter="bedroom">Kamar Tidur</a></li>
+                        <li><a href="#" data-filter="office">Kantor</a></li>
+                        <li><a href="#" data-filter="balcony">Balkon</a></li>
+                        <li><a href="#" data-filter="kitchen">Dapur</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; <span id="currentYear"></span> Hope Plants. Semua hak dilindungi. | Portofolio Desain Tanaman Hias</p>
+            </div>
+        </div>
+    </footer>
+
+   
